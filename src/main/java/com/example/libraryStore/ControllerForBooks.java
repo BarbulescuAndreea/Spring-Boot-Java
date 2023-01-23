@@ -38,6 +38,7 @@ public class ControllerForBooks {
         return mybooksrepo.bookByTitle(bookTitle);
     }
 
+
     @PostMapping // @RequestMapping(method = RequestMethod. POST)
     // POST is used to send data to a server to create/update a resource.
     @ResponseStatus(HttpStatus.CREATED) //statusul raspunsului - CREATE

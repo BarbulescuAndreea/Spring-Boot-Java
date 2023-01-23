@@ -51,6 +51,7 @@ public class SpringBootTest {
                 .body(book)
                 .post(API_ROOT);
 
+
         assertEquals("Created", HttpStatus.CREATED.value(), response.getStatusCode());
     }
 
